@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+             body {
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                text-align:center;
+            }
+            form {
+                position: relative;
+                bottom: 0;
+                right: 0;
+            }
+        </style>
+        <title> Dictonary </title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <h1 style = "font-size : 80px"> Let's add some words in the Dictionary</h1>
+        <br>
+        Enter the word to add: <input type="text" id="wordToAdd" placeholder="Word to save">
+        <input type ="button" onclick = "inputWord()" value = "Save"><br>
+        <br>
+        Let's search for a word: <input type = "text" id = "searchedWord" placeholder="Word to search">
+        <input type="button" onclick = "searchingWord()" value = "Search"><br>
+        <br>
+        <button type="button" onclick = reset() > Delete all the words </button>
+        <script src = "main.js"></script>
+    </body>
+</html>
